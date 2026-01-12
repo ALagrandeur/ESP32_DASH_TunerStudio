@@ -1,12 +1,7 @@
 /*
  * =====================================================
  * ESP32 ECU Dashboard - Avec Interface Web Complète
- * Version 7.0 - INTERFACE WEB COMPLÈTE + CORRECTIONS:
- * - RPM: Signal DIGITAL (impulsions) avec PULL_UP
- * - RPM: Division par nombre de cylindres (1-12)
- * - BUG CORRIGÉ: Battery et capteurs ne montrent plus 654V
- * - Interface Web: Design moderne avec 4 onglets
- * - Guide intégré avec documentation complète
+ * Version 8.0
  * =====================================================
  * 
  * ACCÈS À L'INTERFACE WEB:
@@ -21,7 +16,7 @@
  * - 🔘 Digitaux: 10 indicateurs avec mode pull configurable
  * - 📘 Guide: Documentation complète des pins et formules
  * 
- * CORRECTIONS VERSION 7.0:
+ * CORRECTIONS VERSION 8.0:
  * - RPM sans min_voltage/max_voltage (signal digital)
  * - Valeurs par défaut min_voltage = 0.5V (évite division par zéro)
  * - Simulation toggle visible pour chaque capteur
